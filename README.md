@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## How to use
+
+Images are loaded into the app component as an '<img>' tag and then references in the ts file to get the image object. The image object is then drawn into the canvas in the getDataUrl() method and it returns the base64 encoding of the image. That base64 can then be used in the jsPdf() method to save an image into a generated pdf file.
