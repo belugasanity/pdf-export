@@ -29,3 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## How to use
 
 Images are loaded into the app component as an '<img>' tag and then references in the ts file to get the image object. The image object is then drawn into the canvas in the getDataUrl() method and it returns the base64 encoding of the image. That base64 can then be used in the jsPdf() method to save an image into a generated pdf file.
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=belugasanity-20&language=en_US&marketplace=amazon&region=US&placement=B07Q6ZNJNT&asins=B07Q6ZNJNT&linkId=929395fb4491f80d900914d9f0cfefc0&show_border=true&link_opens_in_new_window=true"></iframe>
